@@ -1,34 +1,113 @@
+@media screen and (min-width: 500px){
+
 body{
-	font-family: Georgia;
-	color: whitesmoke;
-	text-shadow: 4px 2px 10px #000000;
-	text-align: center;
-	background-image: url("636129231573002846-291561714_635920627891520484-247334876_american flag.jpg");
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	margin: 0;
-    height: 100%;
+        font-family: Helvetica;
+        color: whitesmoke;
+        text-shadow: 8px 8px 8px #000000;
+        text-align: center;
+        background-image: url("636129231573002846-291561714_635920627891520484-247334876_american flag.jpg");
+        background-size: 100% auto;
 
 }
-.btn-custom {
-  font-family: Helvetica;
-  background-color: black;
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="whitesmoke", endColorstr="gray");
-  background-image: -khtml-gradient(linear, left top, left bottom, from(whitesmoke), to(gray));
-  background-image: -moz-linear-gradient(top, whitesmoke, gray);
-  background-image: -ms-linear-gradient(top, whitesmoke, gray);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, whitesmoke), color-stop(100%, gray));
-  background-image: -webkit-linear-gradient(top, whitesmoke, gray);
-  background-image: -o-linear-gradient(top, whitesmoke, gray);
-  background-image: linear-gradient(whitesmoke, gray);
-  border-color: black black;
-  color: black !important;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.69);
-  -webkit-font-smoothing: antialiased;
+#msg{
+        color: gray;
+}
+.links {
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -khtml-border-radius: 15px;
+        border-radius: 15px;
+        background-color: #99ff99;
+        padding: 5px;
+        margin-right: 10px;
+        margin-top: 5px;
+        text-indent: 10px;
+}
+.button{
+        -moz-box-shadow: 0px 1px 3px 0px #010a08;
+        -webkit-box-shadow: 0px 1px 3px 0px #010a08;
+        box-shadow: 0px 1px 3px 0px #010a08;
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #b6b8b8));
+        background:-moz-linear-gradient(top, #ffffff 5%, #b6b8b8 100%);
+        background:-webkit-linear-gradient(top, #ffffff 5%, #b6b8b8 100%);
+        background:-o-linear-gradient(top, #ffffff 5%, #b6b8b8 100%);
+        background:-ms-linear-gradient(top, #ffffff 5%, #b6b8b8 100%);
+        background:linear-gradient(to bottom, #ffffff 5%, #b6b8b8 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#b6b8b8',GradientType=0);
+        background-color:#ffffff;
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        border-radius:5px;
+        border:1px solid #878787;
+        display:inline-block;
+        cursor:pointer;
+        color:#212121;
+        font-family:Arial;
+        font-size:15px;
+        font-weight:bold;
+        padding:11px 23px;
+        text-decoration:none;
+        text-shadow:0px -1px 0px #d1d1d1;
 }
 h1{
-	font-weight: 599;
-	font-size: 80px;
-	padding-top: 200px;
+        font-size: 80px;
+        padding-top: 200px;
+}
+}
+
+@media screen and (max-width: 500px){
+
+body{
+        font-family: Helvetica;
+        color: whitesmoke;
+        text-shadow: 8px 8px 8px #000000;
+        text-align: center;
+        background-image: url("phoneflag.png");
+        background-size: 100% auto;
+
+}
+#msg{
+        color: gray;
+}
+.links {
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -khtml-border-radius: 15px;
+        border-radius: 15px;
+        background-color: #99ff99;
+        padding: 5px;
+        margin-right: 10px;
+        margin-top: 5px;
+        text-indent: 10px;
+}
+.button{
+        -moz-box-shadow: 0px 1px 3px 0px #010a08;
+        -webkit-box-shadow: 0px 1px 3px 0px #010a08;
+        box-shadow: 0px 1px 3px 0px #010a08;
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #b6b8b8));
+        background:-moz-linear-gradient(top, #ffffff 5%, #b6b8b8 100%);
+        background:-webkit-linear-gradient(top, #ffffff 5%, #b6b8b8 100%);
+        background:-o-linear-gradient(top, #ffffff 5%, #b6b8b8 100%);
+        background:-ms-linear-gradient(top, #ffffff 5%, #b6b8b8 100%);
+        background:linear-gradient(to bottom, #ffffff 5%, #b6b8b8 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#b6b8b8',GradientType=0);
+        background-color:#ffffff;
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        border-radius:5px;
+        border:1px solid #878787;
+        display:inline-block;
+        cursor:pointer;
+        color:#212121;
+        font-family:Arial;
+        font-size:15px;
+        font-weight:bold;
+        padding:11px 23px;
+        text-decoration:none;
+        text-shadow:0px -1px 0px #d1d1d1;
+}
+h1{
+        font-size: 80px;
+        padding-top: 200px;
+}
 }
