@@ -1,0 +1,11 @@
+.imageContainer {
+    background-image: url("trumptweet.png");
+    background-repeat: no-repeat;
+    font-family: Helvetica;
+    font-size: 20px;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: normal
+ }
